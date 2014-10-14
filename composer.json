@@ -1,0 +1,24 @@
+{
+    "name": "betsol/ipgeobase-client",
+    "type": "library",
+    "description": "PHP client library for IpGeoBase XML API",
+    "license": "MIT",
+    "keywords": [
+        "betsol",
+        "guzzle",
+        "ipgeobase"
+    ],
+    "homepage": "https://github.com/betsol/ipgeobase-client",
+    "authors": [
+        {
+            "name": "Slava Fomin II",
+            "email": "s.fomin@betsol.ru"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-4": { "Betsol\\IpGeoBase\\Api\\": "src/" }
+    }
+}
